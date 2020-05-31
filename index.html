@@ -11,27 +11,27 @@
   </head>
   <body>
     <div class="container">
-      <p>Do you live life by a code?</p>
-      <form>
-        <input type="radio" id="code-question" name="affirmative" value="yes">
-        <label for="code-question">Yes</label><br />
-        <input type="radio" id="code-question" name="negative" value="no">
-        <label for="code-question">No</label><br />
-      </form>    
-      <div class="radio" id="">
-        <p>Do you follow a code?</p>
-        <label>
-          <input type="radio" name="answer" value="yes">
-          Yes
-        </label>
-        <label>
-          <input type="radio" name="answer" value="no">
-          No
-        </label>
-        <label>
-          <input type="radio" name="answer" value="sometimes">
-          Sometimes
-        </label>  
+      
+      <div class="question" id="question-one">
+        <p>Do you live life by a code?</p>
+        <form id="form-one">
+          <input type="radio" id="code-yes" name="code" value="yes">
+          <label for="code-yes">Yes</label><br />
+          <input type="radio" id="code-no" name="code" value="no">
+          <label for="code-no">No</label><br />
+          <button type="submit" class="btn" value="Submit">Next Question</button>
+        </form>
+        <br />
+      </div>
+      <div class="question" id="question-two">
+        <p>How do you feel about "ordinary people"?</p>    
+        <form id="form-two">
+          <input type="radio" id="ordinary-like" name="ordinary" value="like">
+          <label for="ordinary-like">I like them</label><br />
+          <input type="radio" id="ordinary-dislike" name="ordinary" value="dislike">
+          <label for="ordinary-dislike">I STRONGLY DISLIKE them</label><br />
+          <button type="submit" class="btn" value="Submit">Next Question</button>
+        </form>
       </div>
     </div>
   </body>
