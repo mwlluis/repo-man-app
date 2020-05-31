@@ -2,6 +2,6 @@ input[type="radio"]{
   -webkit-appearance: radio;
 }
 
-#question-two {
+#question-two, #question-three, #question-four {
   display: none;
 }
