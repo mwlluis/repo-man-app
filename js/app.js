@@ -11,6 +11,10 @@ $(document).ready(function() {
       
       $("#question-two").show();
     
+    } else if ($('#cosmos').prop('checked')) {
+
+      $("#question-miller-one").show();
+
     } else {
       
       $("question-two").hide();
