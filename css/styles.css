@@ -2,6 +2,6 @@ input[type="radio"]{
   -webkit-appearance: radio;
 }
 
-#question-two, #question-three, #question-four, #question-miller-one {
+#question-two, #question-three, #question-four, #question-otto-one, #question-miller-one {
   display: none;
 }
